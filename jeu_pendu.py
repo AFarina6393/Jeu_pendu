@@ -10,7 +10,7 @@ CHANCES = 6  # Constante permettant de modifier le nombre de chances facilement 
 
 # Fonction pour choisir un mot au hasard dans le fichier texte
 def choisir_mot(mots):
-    return random.choice(mots)
+    return random.choice(mots) 
 
 # Fonction permettant d'afficher l'état du mot cherché par l'utilisateur
 def affichage_mot(lettres, mot_choisi):
